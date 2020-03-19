@@ -101,13 +101,13 @@
 		2F355C072423634700BFA93A /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				2F355C162423634A00BFA93A /* LaunchScreen.storyboard */,
+				2F355C0C2423634700BFA93A /* Landmarks.xcdatamodeld */,
+				2F355C192423634A00BFA93A /* Info.plist */,
+				2F355C112423634A00BFA93A /* Assets.xcassets */,
 				2F355C082423634700BFA93A /* AppDelegate.swift */,
 				2F355C0A2423634700BFA93A /* SceneDelegate.swift */,
 				2F355C0F2423634700BFA93A /* ContentView.swift */,
-				2F355C112423634A00BFA93A /* Assets.xcassets */,
-				2F355C162423634A00BFA93A /* LaunchScreen.storyboard */,
-				2F355C192423634A00BFA93A /* Info.plist */,
-				2F355C0C2423634700BFA93A /* Landmarks.xcdatamodeld */,
 				2F355C132423634A00BFA93A /* Preview Content */,
 			);
 			path = Landmarks;
