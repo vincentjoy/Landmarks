@@ -11,16 +11,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List(0 ..< 5) { item in
-            VStack(alignment: .leading, spacing: 16.0) {
-                Text("Turtle Rock")
-                    .font(.title)
-                    .fontWeight(.medium)
-                    .foregroundColor(.green)
-                Text("Joshua Tree National Park")
-                    .font(.body)
-                    .fontWeight(.regular)
-                    .foregroundColor(.red)
+            HStack(spacing: 8.0) {
+                Image(/*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Image Name@*/"Test"/*@END_MENU_TOKEN@*/)
+                VStack(alignment: .leading, spacing: 16.0) {
+                    Text("Turtle Rock")
+                        .font(.title)
+                        .fontWeight(.medium)
+                        .foregroundColor(.green)
+                    Text("Joshua Tree National Park")
+                        .font(.body)
+                        .fontWeight(.regular)
+                        .foregroundColor(.red)
+                        .lineLimit(nil)
+                        .padding(.trailing, 2.0)
+                }
             }
+            .padding(.vertical, 8.0)
         }
     }
 }
