@@ -37,6 +37,7 @@ struct LandmarkDetail: View {
                     .font(.title2)
                     .foregroundColor(Color.green)
                 Text(landmark.description)
+                    .padding(.top, 4)
             }
             .padding()
             Spacer()
